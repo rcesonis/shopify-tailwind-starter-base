@@ -23,10 +23,11 @@
     "lint-staged": "^12.3.3",
     "postcss": "^8.4.12",
     "prettier": "^2.5.1",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.14"
   },
   "dependencies": {
-    "@trelliscommerce/prettier-config": "^1.0.0"
+    "@trelliscommerce/prettier-config": "^1.0.0",
+    "tailwindcss-rem-to-px": "^0.1.1"
   },
   "prettier": "@trelliscommerce/prettier-config",
   "lint-staged": {

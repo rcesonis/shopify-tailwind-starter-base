@@ -1,3 +1,5 @@
+import remToPx from 'tailwindcss-rem-to-px';
+
 module.exports = {
   prefix: 'twcss-',
   content: [
@@ -29,5 +31,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [remToPx({ baseFontSize: 10 })],
 };
